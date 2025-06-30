@@ -21,21 +21,21 @@ export function Education() {
                     </p>
                     <div className="flex flex-wrap gap-2 mt-2">
                         <div className="flex gap-2 items-center">
-                            <span className="px-3 py-1.5 text-sm font-medium bg-gradient-to-r from-pink-400 to-purple-300 text-black rounded-lg border-2 border-gray-700">
+                            <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
                                 Data Science
                             </span>
-                            <span className="px-3 py-1.5 text-sm font-medium bg-gradient-to-r from-pink-400 to-purple-300 text-black rounded-lg border-2 border-gray-700">
+                            <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
                                 Machine Learning
                             </span>
-                            <span className="px-3 py-1.5 text-sm font-medium bg-gradient-to-r from-pink-400 to-purple-300 text-black rounded-lg border-2 border-gray-700">
+                            <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
                                 Advanced Databases
                             </span>
                         </div>
                         <div className="flex gap-2 items-center w-full">
-                            <span className="px-3 py-1.5 text-sm font-medium bg-gradient-to-r from-pink-400 to-purple-300 text-black rounded-lg border-2 border-gray-700">
+                            <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
                                 Statistical Analysis
                             </span>
-                            <span className="px-3 py-1.5 text-sm font-medium bg-gradient-to-r from-pink-400 to-purple-300 text-black rounded-lg border-2 border-gray-700">
+                            <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
                                 Neural Networks
                             </span>
                         </div>
