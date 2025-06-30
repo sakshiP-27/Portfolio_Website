@@ -13,8 +13,8 @@ export function Education() {
                         Keele University, Keele, England, UK🇬🇧
                     </p>
                     <div className="flex flex-row gap-3 items-center">
-                        <img src="https://drive.google.com/file/d/1sf3_G1q7DcMqvR84LuGoX2HtX2IVnwDE/view?usp=drive_link" alt="Keele University" className="w-64 h-40 rounded-lg shadow-xl" />
-                        <img src="https://drive.google.com/file/d/1isyksOwjOH9EAVDlS4uIDXUwj3nc1XYw/view?usp=drive_link" alt="University" className="w-64 h-40 rounded-lg shadow-xl" />
+                        <img src="https://d31cuupyjbe4e1.cloudfront.net/ADMIN/Keele%20University%20Cover-d94b1bbd-eb99-4198-8cd6-40b060502181.jpg" alt="Keele University" className="w-64 h-40 rounded-lg shadow-xl" />
+                        <img src="https://www.keele.ac.uk/about/aboutthearea/newcastle-960.jpg" alt="University" className="w-64 h-40 rounded-lg shadow-xl" />
                     </div>
                     <p className="text-2xl font-semibold text-neutral-500 dark:text-neutral-200 mt-2">
                         Relevant Coursework
@@ -54,7 +54,7 @@ export function Education() {
                         The Bishop's School, Pune, Maharashtra, India🇮🇳
                     </p>
                     <div className="flex flex-row gap-3 items-center">
-                        <img src="https://drive.google.com/file/d/1cO0cTxxbuctjOJXqy832_X2x8CLlTNvR/view?usp=drive_link" alt="Bishop's School" className="w-72 h-40 rounded-lg shadow-xl" />
+                        <img src="https://media.licdn.com/dms/image/v2/C4D1BAQFCLZLKmhcO9Q/company-background_10000/company-background_10000/0/1594910242376/thebishopsschool_cover?e=2147483647&v=beta&t=fw33yH3ZR0rD__Y8OQKZCBW63XiKjb0UROR58VJ9qBU" alt="Bishop's School" className="w-72 h-40 rounded-lg shadow-xl" />
                     </div>
                     <p className="text-2xl font-semibold text-neutral-500 dark:text-neutral-200 mt-2">
                         Relevant Coursework
