@@ -3,6 +3,9 @@ import { Hero } from "@/section/Hero";
 import { About } from "@/section/About";
 import { Education } from "@/section/Education";
 import { Skills } from "@/section/Skills";
+import { Projects } from "@/section/Projects";
+import { Footer } from "@/section/Footer";
+
 import './App.css'
 
 function App() {
@@ -13,7 +16,8 @@ function App() {
       <About />
       <Education />
       <Skills />
-      {/* Add other sections like About, Skills, Projects, Contact here */}
+      <Projects />
+      <Footer />
     </div>
   );
 }

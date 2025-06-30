@@ -2,7 +2,7 @@ import { CardSpotlight } from "@/components/ui/card-spotlight";
 
 export function About() {
    return (
-    <div className="flex flex-col items-center justify-center">
+    <div id="about" className="flex flex-col items-center justify-center">
         <p className="text-6xl font-extrabold bg-gradient-to-r from-amber-500 to-amber-900 bg-clip-text text-transparent">
             About Me
         </p>

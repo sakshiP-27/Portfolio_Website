@@ -1,6 +1,6 @@
 export function Skills() {
     return (
-        <div className="flex flex-col items-center justify-center mt-20">
+        <div id="skills" className="flex flex-col items-center justify-center mt-20">
             <p className="text-6xl font-extrabold bg-gradient-to-r from-amber-500 to-amber-900 bg-clip-text text-transparent">
                 Skills
             </p>
@@ -10,7 +10,7 @@ export function Skills() {
                 <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-yellow-400 to-transparent h-[5px] w-1/4 blur-sm" />
                 <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-yellow-400 to-transparent h-px w-1/4" />
             </div>
-            <div className="flex flex-wrap gap-2 mt-2">
+            <div className="flex flex-wrap gap-2 mt-2 h-40">
                 <div className="flex gap-2 items-center w-full justify-center">
                     <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700 flex flex-row gap-1">
                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px"><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg>
@@ -66,10 +66,16 @@ export function Skills() {
                     <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
                         Data Science
                     </span>
-                    <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
+                    <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700 flex flex-row gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18px" height="18px" viewBox="0 0 50 50">
+                            <path d="M 8 7 C 4.69 7 2 9.69 2 13 L 2 33 C 2 35.97 4.16 38.440156 7 38.910156 L 7 36.869141 C 5.27 36.429141 4 34.86 4 33 L 4 13 C 4 10.79 5.79 9 8 9 L 41 9 C 43.21 9 45 10.79 45 13 L 45 33 C 45 34.86 43.73 36.429141 42 36.869141 L 42 38.910156 C 44.84 38.440156 47 35.97 47 33 L 47 13 C 47 9.69 44.31 7 41 7 L 8 7 z M 36.5 15 C 35.119 15 34 16.119 34 17.5 L 34 41.5 C 34 42.881 35.119 44 36.5 44 C 37.881 44 39 42.881 39 41.5 L 39 17.5 C 39 16.119 37.881 15 36.5 15 z M 20.5 21 C 19.119 21 18 22.119 18 23.5 L 18 41.5 C 18 42.881 19.119 44 20.5 44 C 21.881 44 23 42.881 23 41.5 L 23 23.5 C 23 22.119 21.881 21 20.5 21 z M 28.5 25 C 27.119 25 26 26.119 26 27.5 L 26 41.5 C 26 42.881 27.119 44 28.5 44 C 29.881 44 31 42.881 31 41.5 L 31 27.5 C 31 26.119 29.881 25 28.5 25 z M 12.5 30 C 11.119 30 10 31.119 10 32.5 L 10 41.5 C 10 42.881 11.119 44 12.5 44 C 13.881 44 15 42.881 15 41.5 L 15 32.5 C 15 31.119 13.881 30 12.5 30 z"></path>
+                        </svg>
                         PowerBI
                     </span>
-                    <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
+                    <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700 flex flex-row gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18px" height="18px" viewBox="0 0 50 50">
+                            <path d="M 23.5 0 L 23.5 4.5 L 19.5 4.5 L 19.5 6.5 L 23.5 6.5 L 23.5 11 L 25.5 11 L 25.5 6.5 L 29.5 6.5 L 29.5 4.5 L 25.5 4.5 L 25.5 0 L 23.5 0 z M 11 5 L 11 11 L 5 11 L 5 13 L 11 13 L 11 19 L 13 19 L 13 13 L 19 13 L 19 11 L 13 11 L 13 5 L 11 5 z M 36 5 L 36 11 L 30 11 L 30 13 L 36 13 L 36 19 L 38 19 L 38 13 L 44 13 L 44 11 L 38 11 L 38 5 L 36 5 z M 23 16 L 23 23 L 16 23 L 16 26 L 23 26 L 23 33 L 26 33 L 26 26 L 33 26 L 33 23 L 26 23 L 26 16 L 23 16 z M 5 19 L 5 23.5 L 1 23.5 L 1 25.5 L 5 25.5 L 5 30 L 7 30 L 7 25.5 L 11 25.5 L 11 23.5 L 7 23.5 L 7 19 L 5 19 z M 43 19 L 43 23.5 L 39 23.5 L 39 25.5 L 43 25.5 L 43 30 L 45 30 L 45 25.5 L 49 25.5 L 49 23.5 L 45 23.5 L 45 19 L 43 19 z M 11 29 L 11 35 L 5 35 L 5 37 L 11 37 L 11 43 L 13 43 L 13 37 L 19 37 L 19 35 L 13 35 L 13 29 L 11 29 z M 36 29 L 36 35 L 30 35 L 30 37 L 36 37 L 36 43 L 38 43 L 38 37 L 44 37 L 44 35 L 38 35 L 38 29 L 36 29 z M 23.5 38 L 23.5 42.5 L 19.5 42.5 L 19.5 44.5 L 23.5 44.5 L 23.5 49 L 25.5 49 L 25.5 44.5 L 29.5 44.5 L 29.5 42.5 L 25.5 42.5 L 25.5 38 L 23.5 38 z"></path>
+                        </svg>
                         Tableau
                     </span>
                     <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">

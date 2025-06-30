@@ -56,13 +56,29 @@ export function Education() {
                     <div className="flex flex-row gap-3 items-center">
                         <img src="../../public/Bishops_School.jpg" alt="Bishop's School" className="w-72 h-40 rounded-lg shadow-xl" />
                     </div>
+                    <p className="text-2xl font-semibold text-neutral-500 dark:text-neutral-200 mt-2">
+                        Relevant Coursework
+                    </p>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                        <div className="flex gap-2 items-center">
+                            <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
+                                Physics
+                            </span>
+                            <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
+                                Chemistry
+                            </span>
+                            <span className="px-3 py-1.5 text-sm font-medium bg-white hover:bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3] text-black rounded-lg border-2 border-gray-700">
+                                Mathematics
+                            </span>
+                        </div>
+                    </div>
                 </div>
             )
         }
     ];
 
     return (
-        <div className="relative w-full overflow-clip">
+        <div id="education" className="relative w-full overflow-clip">
             <Timeline data={data} />
         </div>
     );

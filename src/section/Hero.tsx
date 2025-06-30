@@ -10,7 +10,7 @@ export function Hero() {
     }
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem] ">
+    <div id="home" className="flex flex-col items-center justify-center h-[40rem] ">
       <p className="text-amber-950 font-bold dark:text-neutral-200 text-xl mb-3">
         Hello There, I am
       </p>

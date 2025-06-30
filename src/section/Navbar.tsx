@@ -6,10 +6,10 @@ export function Navbar() {
             [
                 { name: "Home", link: "#home" },
                 { name: "About", link: "#about" },
-                { name: "Education", link: "#experience"},
+                { name: "Education", link: "#education"},
                 { name: "Skills", link: "#skills" },
                 { name: "Projects", link: "#projects" },
-                { name: "Contact", link: "#contact" },
+                { name: "Contact", link: "#contact" }
             ]
         }/>
     );
