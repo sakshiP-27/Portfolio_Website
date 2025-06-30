@@ -13,8 +13,8 @@ export function Education() {
                         Keele University, Keele, England, UK🇬🇧
                     </p>
                     <div className="flex flex-row gap-3 items-center">
-                        <img src="../../public/Keele_University.jpg" alt="Keele University" className="w-64 h-40 rounded-lg shadow-xl" />
-                        <img src="../../public/Uni2.jpg" alt="University" className="w-64 h-40 rounded-lg shadow-xl" />
+                        <img src="https://drive.google.com/file/d/1sf3_G1q7DcMqvR84LuGoX2HtX2IVnwDE/view?usp=drive_link" alt="Keele University" className="w-64 h-40 rounded-lg shadow-xl" />
+                        <img src="https://drive.google.com/file/d/1isyksOwjOH9EAVDlS4uIDXUwj3nc1XYw/view?usp=drive_link" alt="University" className="w-64 h-40 rounded-lg shadow-xl" />
                     </div>
                     <p className="text-2xl font-semibold text-neutral-500 dark:text-neutral-200 mt-2">
                         Relevant Coursework
@@ -54,7 +54,7 @@ export function Education() {
                         The Bishop's School, Pune, Maharashtra, India🇮🇳
                     </p>
                     <div className="flex flex-row gap-3 items-center">
-                        <img src="../../public/Bishops_School.jpg" alt="Bishop's School" className="w-72 h-40 rounded-lg shadow-xl" />
+                        <img src="https://drive.google.com/file/d/1cO0cTxxbuctjOJXqy832_X2x8CLlTNvR/view?usp=drive_link" alt="Bishop's School" className="w-72 h-40 rounded-lg shadow-xl" />
                     </div>
                     <p className="text-2xl font-semibold text-neutral-500 dark:text-neutral-200 mt-2">
                         Relevant Coursework
