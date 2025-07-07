@@ -103,8 +103,8 @@ export function Projects() {
                     </CardContainer>
                 </div>
                 
-                {/* Second row with single card */}
-                <div className="flex flex-row items-center justify-center">
+                {/* Second row with two cards */}
+                <div className="flex flex-row items-center justify-center gap-10">
                     <CardContainer className="inter-var">
                         <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                             <CardItem
@@ -132,6 +132,48 @@ export function Projects() {
                             <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300">
                                 <span className="font-bold">Tech Stack: </span>
                                 Python, Jupyter Notebook, Scikit-Learn, Pandas, Numpy, Matplotlib, Seaborn
+                            </CardItem>
+                            <div className="flex justify-between items-center mt-10">
+                                <CardItem
+                                    translateZ={20}
+                                    as="a"
+                                    href="https://github.com/sakshiP-27/Fake-Reviews-Detection"
+                                    target="__blank"
+                                    className="px-4 py-2 rounded-xl text-md font-normal dark:text-white flex flex-row"
+                                >
+                                    <svg width="21px" height="21px" viewBox="0 0 24 24" stroke-width="1.9" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M6.00005 19L19 5.99996M19 5.99996V18.48M19 5.99996H6.52005" stroke="#000000" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                    Link
+                                </CardItem>
+                            </div>
+                        </CardBody>
+                    </CardContainer>
+                    <CardContainer className="inter-var">
+                        <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+                            <CardItem
+                            translateZ="50"
+                            className="text-xl font-bold bg-gradient-to-r from-amber-500 to-amber-900 bg-clip-text text-transparent dark:text-white"
+                            >
+                                Credit Card Fraud Detection
+                            </CardItem>
+                            <CardItem
+                            as="p"
+                            translateZ="60"
+                            className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                            >
+                                A Macine Learning model to detect fraudulent transactions in credit card data. The model uses various algorithms which are compared on their performance bench marks on which model best predicts the fraudlent transactions. The dataset was highly imbalanced hence various data preprocessing techniques were implemented over it.
+                            </CardItem>
+                            <CardItem translateZ="100" className="w-full mt-4">
+                                <img
+                                    src="https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg"
+                                    height="1000"
+                                    width="1000"
+                                    className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                                    alt="thumbnail"
+                                />
+                            </CardItem>
+                            <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300">
+                                <span className="font-bold">Tech Stack: </span>
+                                Python, Scikit-Learn, Pandas, Matplotlib
                             </CardItem>
                             <div className="flex justify-between items-center mt-10">
                                 <CardItem
