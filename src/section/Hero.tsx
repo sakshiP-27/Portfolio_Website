@@ -45,7 +45,7 @@ export function Hero() {
       {/* Image Section - larger, starts from top, no right fade */}
       <div className="relative -mt-4 ml-4">
         <img 
-          src="public/sakshiii.jpeg" 
+          src="https://drive.google.com/file/d/1ttsxjf0R_Ypwf_r7h5AuMD0kTN5a88ER/view?usp=sharing" 
           alt="Meri Jaan" 
           className="h-[38rem] w-auto max-w-none object-cover"
           style={{
