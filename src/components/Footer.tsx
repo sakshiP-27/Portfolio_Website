@@ -12,7 +12,7 @@ export default function Footer() {
       </div>
       <div className="relative h-[clamp(5rem,12vw,14rem)] overflow-hidden">
         <motion.div initial={{ opacity: 0, y: 60 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: "easeOut" }} className="footer-text text-center select-none absolute inset-x-0 top-0">
-          SP
+          SAKSHI
         </motion.div>
       </div>
     </footer>
