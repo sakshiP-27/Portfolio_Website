@@ -1,25 +1,28 @@
-import { Navbar } from "@/section/Navbar";
-import { Hero } from "@/section/Hero";
-import { About } from "@/section/About";
-import { Education } from "@/section/Education";
-import { Skills } from "@/section/Skills";
-import { Projects } from "@/section/Projects";
-import { Footer } from "@/section/Footer";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-import './App.css'
-
-function App() {
+export default function App() {
   return (
-    <div className="flex flex-col min-h-screen w-full bg-gradient-to-br from-[#fdf6f0] via-[#f7e4e1] to-[#edd7f3]">
+    <>
       <Navbar />
       <Hero />
+      <div className="section-divider" />
       <About />
-      <Education />
+      <div className="section-divider" />
       <Skills />
+      <div className="section-divider" />
       <Projects />
+      <div className="section-divider" />
+      <Experience />
+      <div className="section-divider" />
+      <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
-
-export default App
